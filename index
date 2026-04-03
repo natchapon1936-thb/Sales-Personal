@@ -1,0 +1,29 @@
+<input id="username" placeholder="ใส่ชื่อของคุณ" style="width:100%; padding:10px;">
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sales Type Quiz</title>
+<style>
+body { font-family: Arial; max-width: 600px; margin: auto; }
+.card { border: 1px solid #ddd; padding: 20px; border-radius: 12px; margin-top: 20px; }
+.btn { display:block; margin:10px 0; padding:10px; border-radius:8px; background:#f2f2f2; cursor:pointer; }
+.progress { height:10px; background:#eee; border-radius:10px; }
+.progress-bar { height:10px; background:#4CAF50; width:0%; border-radius:10px; }
+</style>
+</head>
+
+<body>
+
+<h2>คุณเป็นนักขายแบบไหน?</h2>
+
+<div class="progress">
+  <div id="bar" class="progress-bar"></div>
+</div>
+
+<div id="quiz" class="card"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
